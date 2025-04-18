@@ -18,7 +18,7 @@ class Pet:
 
     def play(self):
         self.energy -= 2
-        self.happiness += 1
+        self.happiness += 2
         self.hunger += 1
         print(f"{self.name} is playing...")
 
